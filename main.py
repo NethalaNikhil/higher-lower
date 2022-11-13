@@ -6,6 +6,8 @@ count = 0
 d_u_want_play = True
 A = random.choice(game_data.data)
 B = random.choice(game_data.data)
+if (A=B):
+  B = random.choice(game_data.data)
 while d_u_want_play:
   print(art.logo)
   def details():

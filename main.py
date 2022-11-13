@@ -27,6 +27,8 @@ while d_u_want_play:
      #print("you 're right! current score : ",count)
      details()
    else:
+     replit.clear()
+     print(art.logo)
      print("sorry that's wrong.Final score: ",count)
      d_u_want_play = False
   elif more_followers == 'b':

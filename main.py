@@ -9,6 +9,7 @@ B = random.choice(game_data.data)
 if (A=B):
   B = random.choice(game_data.data)
 while d_u_want_play:
+  replit.clear()
   print(art.logo)
   def details():
     if(count>=1):
